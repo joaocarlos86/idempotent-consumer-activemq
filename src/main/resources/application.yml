@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: demo
+  jms:
+    activemq:
+      classic:
+        enabled: true
+        connection-string: tcp://localhost:61616
+netty:
+  default:
+    allocator:
+      max-order: 3
